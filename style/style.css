@@ -52,10 +52,11 @@ p{
     font-size: 14px;
     font-weight: 500;
     line-height: 20px;
-    margin-bottom: 12px;
+    margin-bottom: 8px;
 }
-.tumbnail-row{
-    margin-bottom: 12px;
+.thumbnail-row{
+    margin-bottom: 8px;
+    position: relative;
 }
 .video-author{
     font-size: 12px;
@@ -76,6 +77,27 @@ p{
     column-gap: 16px;
     row-gap: 40px;
 }
+.video-preview:hover{
+    background-color: rgba(0,0,0,0.05);
+    border-radius: 4px;
+    cursor: pointer;
+}
+.duration{
+    position: absolute;
+    bottom: 20px;
+    right: 5px;
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+    font-size: 12px;
+    font-family: Roboto, Arial;
+    font-weight: 500;
+    padding: 2px;
+    border-radius: 2px;
+}
 body{
     margin: 0;
+    padding-top: 80px;
+    padding-left: 96px;
+    padding-right: 16px;
+    background-color: rgb(253, 253, 253);
 }
